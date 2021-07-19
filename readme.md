@@ -23,7 +23,7 @@ Verificar las rutas en las que se ejecutan los archivos .php, (En caso de linux 
 
 ## Despliegue 📦
 
-_Agrega notas adicionales sobre como hacer deploy_
+El archivo inicial seria (index.php) que se encuentra en la carpeta /root del proyecto, esta es la que carga la aplicacion asi como los controladores para iniciar.
 
 ## Construido con 🛠️
 
