@@ -4,23 +4,22 @@ Dicho proyecto consiste en la creacion de una pagina web para registrar eventos,
 
 ## Comenzando 🚀
 
-Este proyecto utiliza una Base de Datos MySQL que corre localmente, la config
+Este proyecto utiliza una Base de Datos MySQL que corre localmente, el schema utilizado se encuentra bajo la carpeta Database_schema es un script Dump.sql el cual se ejecuta a traves de mysql y carga el schema utilizado por la aplicacion. ADemas de este debe tener en cuenta el archivo config.php que se encuentra bajo la carpeta config/config.php, en este archivo estan las configuraciones de conexion a la base de datos, aca se deben colocar las configuraciones propias de cada usuario.
 
 Mira **Deployment** para conocer como desplegar el proyecto.
 
 
 ### Pre-requisitos 📋
 
-_Que cosas necesitas para instalar el software y como instalarlas_
+Debe estar instalado el servidor de apache , asi como el mysql_server.
+Anbos deben estar corriendo como servicios al momento de ejecutar la aplicacion en la direccion deseada, (por defecto: http/localhost/)
 
-```
-Da un ejemplo
-```
 
 ### Instalación 🔧
 
-_Una serie de ejemplos paso a paso que te dice lo que debes ejecutar para tener un entorno de desarrollo ejecutandose_
-
+Instalar mysql y php usando la configuracion de apache.
+Verificar que los servicios de mysql y apache esten ejecutandose, asi como sus puertos de configuracion(*:3306 y *:80, respectivamente) esten disponibles.
+Verificar las rutas en las que se ejecutan los archivos .php, (En caso de linux los proyectos deben colocarse en rutas como '/var/www/html') a no ser que se mapeen estas rutas usando los archivos de configuracion de apache.
 
 ## Despliegue 📦
 
@@ -29,9 +28,7 @@ _Agrega notas adicionales sobre como hacer deploy_
 ## Construido con 🛠️
 
 
-* [Dropwizard](http://www.dropwizard.io/1.0.2/docs/) - El framework web usado
-* [Maven](https://maven.apache.org/) - Manejador de dependencias
-* [ROME](https://rometools.github.io/rome/) - Usado para generar RSS
+* [MySQL](https://dev.mysql.com/doc/) - La base de datos utilizada
 
 
 ## Autores ✒️
