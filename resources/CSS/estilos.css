@@ -1,0 +1,86 @@
+#content col-4 .btn {
+    width: 170px;
+    height: auto;
+    white-space: normal;
+    word-wrap: break-word;
+    align-self: center;
+}
+
+.col-4 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#content {
+    margin-top: 30px;
+    margin-bottom: 70px;
+}
+
+footer {
+    width: fit-content;
+    height: 150px;
+    background-color: silver;
+}
+
+#Atr_img {
+    padding-top: 20px;
+}
+
+#reg_form form {
+    margin-top: 30px;
+    width: 400px;
+}
+
+#reg_form {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#reg_form select {
+    margin-left: 30px;
+}
+
+form p {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+#reg_form .row {
+    display: flex;
+    justify-content: center;
+}
+
+#header {
+    background: darkcyan;
+    padding: 10px;
+}
+
+#header ul li {
+    list-style: none;
+    display: inline;
+    padding: 10px;
+    margin-right: 10px;
+    margin-top: 5px;
+}
+
+#header ul li:hover {
+    box-shadow: 0px 0px 10px 0px #333 inset;
+}
+
+#header ul li a {
+    color: white;
+    text-decoration: none;
+    padding: 10px;
+}
+
+#header ul {
+    display: flex;
+    align-items: center;
+}
+
+tr {
+    text-align: center;
+}
