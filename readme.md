@@ -29,6 +29,8 @@ El archivo inicial seria (index.php) que se encuentra en la carpeta /root del pr
 
 
 * [MySQL](https://dev.mysql.com/doc/) - La base de datos utilizada
+* [PHP](https://www.php.net/docs.php) - Manejo de peticiones al servidor apache de php
+* [Bootstrap](https://getbootstrap.com/docs/5.0/getting-started/introduction/) - librerias de estilos CSS de bootstrap
 
 
 ## Autores ✒️
