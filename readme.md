@@ -1,4 +1,4 @@
-# Challenge CCSM
+# PHP-Porject / MVC
 Proyecto de prueba desarrollado usando HTML,CSS,PHP en un servidor apache y una Base de Datos MySQL todo esto bajo el modelo Vista Controlador (MVC).
 Dicho proyecto consiste en la creacion de una pagina web para registrar eventos, asi como las personas que asisten al mismo, CRUD de los objetos siempre manteniendo la jerarquia de carpetas MVC, creacion de paneles de estadistica y consulta de datos, asi como un panel de administracion para actualizacion y eliminacion de datos.
 
